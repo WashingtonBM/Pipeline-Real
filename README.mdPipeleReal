@@ -1,8 +1,3 @@
-Aqui tem um **README.md** profissional, estruturado e completo para o seu repositório no GitHub. Ele reflete toda a arquitetura do projeto (integração Supabase, pipeline SQL, deteção de fraude e versionamento), pronto para copiar, colar e atualizar no seu ficheiro `README.md`.
-
----
-
-```markdown
 # 🚀 Pipeline Real-Time End-to-End com Supabase e SQL
 
 Pipeline de dados transacionais e de pagamentos desenvolvido com arquitetura moderna baseada em nuvem, integrando **Supabase (PostgreSQL)**, scripts de automação em **SQL** e controlo de versões via **Git/GitHub**.
@@ -77,11 +72,5 @@ O script localizado em `sql/fraud_detection.sql` implementa verificações de se
 Desenvolvido por **Washington Brito**
 
 * GitHub: [@WashingtonBM](https://www.google.com/search?q=https://github.com/WashingtonBM)
-
-```
-
----
-
-Basta substituir o conteúdo atual do seu `README.md` no VS Code por este texto, fazer um `git add .`, `git commit -m "docs: atualiza README completo"` e um `git push` para deixar o seu repositório com um aspeto totalmente profissional!
 
 ```
