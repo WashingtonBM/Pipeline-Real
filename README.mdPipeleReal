@@ -10,7 +10,7 @@ O projeto foi estruturado utilizando as seguintes ferramentas e tecnologias:
 * **Banco de Dados**: PostgreSQL na nuvem (via Supabase) com suporte a Connection Pooling (Supavisor).
 * **Linguagem de Consulta**: SQL Avançado (Modelagem relacional, funções e regras de negócio).
 * **Desenvolvimento**: Visual Studio Code (com extensões para gestão de base de dados e SQL).
-* **Controlo de Versão**: Git & GitHub (`https://github.com/WashingtonBM/Pipeline-Real.git`).
+* **Controlo de Versão**: Git & GitHub (`https://github.com/WashingtonBM/Pipeline-Real.git ).
 * **Integração/Automação**: Plataforma Devant / Gestão de pipelines.
 
 ---
