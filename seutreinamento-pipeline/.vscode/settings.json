@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "name": "Supabase - seutreinamento-pipeline",
+      "driver": "PostgreSQL",
+      "server": "aws-1-us-west-2.pooler.supabase.com",
+      "port": 5432,
+      "database": "postgres",
+      "username": "postgres.dlecachklghovccbrovf",
+      "askForPassword": true,
+      "ssl": true,
+      "previewLimit": 50
+    }
+  ]
+}
