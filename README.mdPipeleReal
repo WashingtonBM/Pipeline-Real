@@ -1,3 +1,8 @@
+Aqui tem um **README.md** profissional, estruturado e completo para o seu repositório no GitHub. Ele reflete toda a arquitetura do projeto (integração Supabase, pipeline SQL, deteção de fraude e versionamento), pronto para copiar, colar e atualizar no seu ficheiro `README.md`.
+
+---
+
+```markdown
 # 🚀 Pipeline Real-Time End-to-End com Supabase e SQL
 
 Pipeline de dados transacionais e de pagamentos desenvolvido com arquitetura moderna baseada em nuvem, integrando **Supabase (PostgreSQL)**, scripts de automação em **SQL** e controlo de versões via **Git/GitHub**.
