@@ -1,0 +1,82 @@
+# 🚀 Pipeline Real-Time End-to-End com Supabase e SQL
+
+Pipeline de dados transacionais e de pagamentos desenvolvido com arquitetura moderna baseada em nuvem, integrando **Supabase (PostgreSQL)**, scripts de automação em **SQL** e controlo de versões via **Git/GitHub**.
+
+---
+
+## 🛠️ Arquitetura e Tecnologias
+
+O projeto foi estruturado utilizando as seguintes ferramentas e tecnologias:
+* **Banco de Dados**: PostgreSQL na nuvem (via Supabase) com suporte a Connection Pooling (Supavisor).
+* **Linguagem de Consulta**: SQL Avançado (Modelagem relacional, funções e regras de negócio).
+* **Desenvolvimento**: Visual Studio Code (com extensões para gestão de base de dados e SQL).
+* **Controlo de Versão**: Git & GitHub (`https://github.com/WashingtonBM/Pipeline-Real.git`).
+* **Integração/Automação**: Plataforma Devant / Gestão de pipelines.
+
+---
+
+## 📂 Estrutura do Repositório
+
+O repositório está organizado da seguinte forma para garantir escalabilidade e clareza:
+
+```text
+├── .vscode/                  # Configurações do ambiente de desenvolvimento
+├── seutreinamento-pipeline/  # Módulos operacionais do pipeline
+│   ├── postgres/
+│   │   └── init.sql          # Script de inicialização da base de dados e tabelas
+│   ├── sql/
+│   │   └── fraud_detection.sql # Consultas e regras de deteção de anomalias/fraude
+│   ├── .env.example            # Variáveis de ambiente de exemplo
+│   └── README.md               # Documentação interna do módulo
+└── README.md                 # Documentação principal do projeto
+
+```
+
+---
+
+## ⚙️ Configuração e Instalação
+
+Siga os passos abaixo para clonar e configurar o ambiente localmente:
+
+1. **Clonar o repositório**:
+```bash
+git clone [https://github.com/WashingtonBM/Pipeline-Real.git](https://github.com/WashingtonBM/Pipeline-Real.git)
+cd Pipeline-Real
+
+```
+
+
+2. **Configurar as Variáveis de Ambiente**:
+* Copie o ficheiro `.env.example` para `.env` dentro da pasta correspondente.
+* Preencha as credenciais da sua base de dados Supabase (Host, Port 6543, User, Password e Database name).
+
+
+3. **Executar a Inicialização**:
+* Execute o script `postgres/init.sql` no seu editor SQL do Supabase ou cliente local para criar as tabelas estruturais do pipeline.
+
+
+
+---
+
+## 🔍 Regras de Negócio e Deteção de Fraude
+
+O script localizado em `sql/fraud_detection.sql` implementa verificações de segurança cruciais para o fluxo de pagamentos:
+
+* **Análise de Velocidade**: Monitoriza múltiplos pedidos de transação num curto espaço de tempo provenientes da mesma origem.
+* **Deteção de Anomalias**: Identifica padrões fora do comportamento regular de transações para mitigar riscos operacionais de forma automatizada.
+
+---
+
+## 👤 Autor
+
+Desenvolvido por **Washington Brito**
+
+* GitHub: [@WashingtonBM](https://www.google.com/search?q=https://github.com/WashingtonBM)
+
+```
+
+---
+
+Basta substituir o conteúdo atual do seu `README.md` no VS Code por este texto, fazer um `git add .`, `git commit -m "docs: atualiza README completo"` e um `git push` para deixar o seu repositório com um aspeto totalmente profissional!
+
+```
